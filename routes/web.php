@@ -24,3 +24,4 @@ Route::resource('posts', 'PostsController');
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index');
+Route::get('/profile', 'ProfileController@index');
